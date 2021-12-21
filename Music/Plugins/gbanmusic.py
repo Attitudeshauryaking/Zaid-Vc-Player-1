@@ -44,12 +44,12 @@ async def ban_globally(_, message):
                 except Exception:
                     pass    
             ban_text = f"""
-__**New Global Ban List On Yui Music**__\n
-**Origin:** {message.chat.title} [`{message.chat.id}`]
-**Sudo User:** {from_user.mention}
-**Banned User:** {user.mention}
-**Banned User ID:** `{user.id}`
-**Chats:** {number_of_chats}"""
+__**🔥New Global Ban List On Moti Music © @Attitude_Network **__\n
+**★Origin:** {message.chat.title} [`{message.chat.id}`]
+**★Sudo User:** {from_user.mention}
+**★Banned User:** {user.mention}
+**★Banned User ID:** `{user.id}`
+**★Chats:** {number_of_chats}"""
             try:
                 await m.delete()
             except Exception:
@@ -89,12 +89,12 @@ __**New Global Ban List On Yui Music**__\n
                 except Exception:
                     pass    
             ban_text = f"""
-__**New Global Ban List On Yui Music**__\n
-**Origin:** {message.chat.title} [`{message.chat.id}`]
-**Sudo User:** {from_user_mention}
-**Banned User:** {mention}
-**Banned User ID:** `{user_id}`
-**Chats:** {number_of_chats}"""
+__**🔥New Global Ban List On Moti Music © @Attitude_Network**__\n
+**★Origin:** {message.chat.title} [`{message.chat.id}`]
+**★Sudo User:** {from_user_mention}
+**★Banned User:** {mention}
+**★Banned User ID:** `{user_id}`
+**★Chats:** {number_of_chats}"""
             try:
                 await m.delete()
             except Exception:
