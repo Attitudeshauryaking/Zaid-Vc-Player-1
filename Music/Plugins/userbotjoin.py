@@ -36,12 +36,12 @@ async def join_group(client, message):
     except Exception as e:
         print(e)
         await message.reply_text(
-            f"🛑 Flood Wait Error 🛑 \n\n** ❌ {ASSNAME}(@{ASSUSERNAME}) couldn't join your group due to heavy join requests for userbot**"
+            f"🛑 Flood Wait Error 🛑 \n\n** ❌ {ASSNAME}(@{ASSUSERNAME}) couldn't join your group due to heavy join requests for userbot Contact to @OAN_Support**"
             "\n\n**or add assistant manually to your Group and try again**",
         )
         return
     await message.reply_text(
-        f"✅ **userbot succesfully entered chat**",
+        f"✅ **userbot succesfully entered chat Powered by: @Attitude_Network**",
     )
 
 
