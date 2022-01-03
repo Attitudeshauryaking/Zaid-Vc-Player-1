@@ -62,5 +62,5 @@ async def ubkickme(_, message: Message):
 async def ubalive(_, message: Message):
   alive_msg = await message.edit_text("`Processing...`")
   alive_pic = "https://telegra.ph/file/9560aa796165f09b35165.jpg"
-  await message.reply_photo(alive_pic, caption=f"**☑️ Moti Music Userbot is Alive 🌀** \n\n**🤖 Version** \n ↳**Bot Version:** `2.5` \n ↳**Userbot Version:** `0.0` \n\n**🐬 Info**\n ↳**Music Bot:** @{BOT_USERNAME} \n ↳**Owner:** [Click Here](tg://user?id=1669178360)")
+  await message.reply_photo(alive_pic, caption=f"**☑️ Moti Music Userbot is Alive 🌀** \n\n**🤖 Version** \n ↳**Bot Version:** `2.5` \n ↳**Userbot Version:** `0.0` \n\n**🐬 Info**\n ↳**Music Bot:** @{BOT_USERNAME} \n ↳**Owner:** [Click Here](tg://user?id=1836386247)")
   await alive_msg.delete()
